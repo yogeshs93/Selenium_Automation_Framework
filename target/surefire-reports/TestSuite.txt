@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.152 sec <<< FAILURE! - in TestSuite
-loginLogoutTest(com.tests.OrangeHRMTests)  Time elapsed: 12.426 sec  <<< FAILURE!
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.886 sec <<< FAILURE! - in TestSuite
+loginLogoutTest(com.tests.OrangeHRMTests)  Time elapsed: 12.347 sec  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: welcome (tried for 10 second(s) with 500 milliseconds interval)
 	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -25,7 +25,7 @@ org.openqa.selenium.TimeoutException: Expected condition failed: waiting for pre
 	at com.pages.OrangeHRMHomePage.clickWelcome(OrangeHRMHomePage.java:13)
 	at com.tests.OrangeHRMTests.loginLogoutTest(OrangeHRMTests.java:32)
 
-newTest(com.tests.OrangeHRMTests)  Time elapsed: 12.489 sec  <<< FAILURE!
+newTest(com.tests.OrangeHRMTests)  Time elapsed: 10.77 sec  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.id: welcome (tried for 10 second(s) with 500 milliseconds interval)
 	at sun.reflect.GeneratedConstructorAccessor34.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
